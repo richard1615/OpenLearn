@@ -7,9 +7,9 @@ from cvzone.HandTrackingModule import HandDetector
 from handwriting.handwriting_model import HandwritingModel
 import time
 
-colorsPath = "../NavBar/Colors"
-homepagePath = "../NavBar/Homepage"
-sizesPath = "../NavBar/Sizes"
+colorsPath = "NavBar/Colors"
+homepagePath = "NavBar/Homepage"
+sizesPath = "NavBar/Sizes"
 imListColors = os.listdir(colorsPath)
 imListHomepage = os.listdir(homepagePath)
 imListSizes = os.listdir(sizesPath)
