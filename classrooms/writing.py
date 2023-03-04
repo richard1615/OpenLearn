@@ -4,12 +4,12 @@ import os
 import numpy as np
 from PIL import Image
 from cvzone.HandTrackingModule import HandDetector
-from handwriting_model import HandwritingModel
+from handwriting.handwriting_model import HandwritingModel
 import time
 
-colorsPath = "NavBar/Colors"
-homepagePath = "NavBar/Homepage"
-sizesPath = "NavBar/Sizes"
+colorsPath = "../NavBar/Colors"
+homepagePath = "../NavBar/Homepage"
+sizesPath = "../NavBar/Sizes"
 imListColors = os.listdir(colorsPath)
 imListHomepage = os.listdir(homepagePath)
 imListSizes = os.listdir(sizesPath)
