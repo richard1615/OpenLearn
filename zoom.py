@@ -47,6 +47,9 @@ def virtual_zoom(image_path="img.png"):
         cv2.imshow("Image", img)
         cv2.waitKey(1)
 
+        if cv2.getWindowProperty('Image', 0) < 0:
+            break
+
 
 if __name__ == "__main__":
     virtual_zoom()

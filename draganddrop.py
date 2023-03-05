@@ -63,6 +63,9 @@ def drag_and_drop():
         cv2.imshow("Image", out)
         cv2.waitKey(1)
 
+        if cv2.getWindowProperty('Image', 0) < 0:
+            break
+
 
 if __name__ == "__main__":
     drag_and_drop()
