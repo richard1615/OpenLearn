@@ -55,10 +55,8 @@ Our application uses computer vision technology to create virtual classrooms wit
     <li>Tkinter</li>
     <li>MediaPipe</li>
 </ul>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 Before getting a local copy up, you must ensure that you have the necessary software required.
@@ -92,15 +90,13 @@ Before getting a local copy up, you must ensure that you have the necessary soft
     python frontend.py
     ```
    
-## Dataset
+### Dataset
 
 The dataset used for training the ML model can be found 
 <a href='https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format'>here</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 ### Demo Links
@@ -113,9 +109,10 @@ The dataset used for training the ML model can be found
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
+- [ ] A screen recording feature could be added to allow users to record their entire screen or a specific window while recording a video.
+- [ ] Integration with Learning Management Systems (LMS): The application could be integrated with popular LMS platforms to streamline the classroom experience for both teachers and students.
+- [ ] Video editing: A built-in video editor could be added to allow users to edit and enhance their recorded videos.
+- [ ] Cloud storage: A cloud storage feature could be added to allow users to store their recorded videos securely and access them from anywhere.
 
 See the [open issues](https://github.com/richard1615/OpenLearn/issues) for a full list of proposed features (and known issues).
 
@@ -137,16 +134,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- CONTACT -->
 ## Contact
 
 Malavika Harikumar  - malavikaha02@gmail.com
@@ -154,7 +147,6 @@ Malavika Harikumar  - malavikaha02@gmail.com
 Project Link: [https://github.com/richard1615/OpenLearn](https://github.com/richard1615/OpenLearn)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -164,37 +156,3 @@ Project Link: [https://github.com/richard1615/OpenLearn](https://github.com/rich
 * [Davide Spalla](https://deepnote.com/@davidespalla/Recognizing-handwriting-with-Tensorflow-and-OpenCV-cfc4acf5-188e-4d3b-bdb5-a13aa463d2b0#00012-421d73cc-3b3a-4330-ab92-7e48462e68c3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/richard1615/OpenLearn.svg?style=for-the-badge
-[contributors-url]: https://github.com/richard1615/OpenLearn/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/richard1615/OpenLearn.svg?style=for-the-badge
-[forks-url]: https://github.com/richard1615/OpenLearn/network/members
-[stars-shield]: https://img.shields.io/github/stars/richard1615/OpenLearn.svg?style=for-the-badge
-[stars-url]: https://github.com/richard1615/OpenLearn/stargazers
-[issues-shield]: https://img.shields.io/github/issues/richard1615/OpenLearn.svg?style=for-the-badge
-[issues-url]: https://github.com/richard1615/OpenLearn/issues
-[license-shield]: https://img.shields.io/github/license/richard1615/OpenLearn.svg?style=for-the-badge
-[license-url]: https://github.com/richard1615/OpenLearn/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
