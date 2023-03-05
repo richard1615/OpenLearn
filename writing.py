@@ -40,7 +40,7 @@ def drawOnFeed(frame, canvas):
     return frame
 
 
-def main():
+def real_time_writing():
     width, height = 1280, 720
     brushColor = [(0, 0, 255), (0, 255, 0), (255, 0, 80)]
     brushSize = [10, 20, 30]
@@ -145,4 +145,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    real_time_writing()

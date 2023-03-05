@@ -2,7 +2,7 @@ import cv2
 from cvzone.HandTrackingModule import HandDetector
 
 
-def virtual_zoom():
+def virtual_zoom(image_path="img.png"):
     cap = cv2.VideoCapture(0)
     cap.set(3, 1280)
     cap.set(4, 720)
@@ -32,7 +32,9 @@ def virtual_zoom():
         else:
             startDist = None
 
-        img1 = cv2.imread("img.png")
+        img1 = cv2.imread(image_path)
+        if img1 is None:
+            img1 = cv2.imread("img.png")
 
         try:
             h1, w1, _ = img1.shape
