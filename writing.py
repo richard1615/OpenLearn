@@ -4,7 +4,7 @@ import os
 import numpy as np
 from PIL import Image
 from cvzone.HandTrackingModule import HandDetector
-from handwriting.handwriting_model import HandwritingModel
+from handwriting_model import HandwritingModel
 import time
 
 colorsPath = "NavBar/Colors"
@@ -68,7 +68,6 @@ def main():
             fingers = detector.fingersUp(hands[0])
             xi, yi = lm_list[8][:2]
             xm, ym = lm_list[12][:2]
-            print(fingers)
 
             # index finger
             if fingers == [1, 1, 0, 0, 0] or fingers == [0, 1, 0, 0, 0]:
@@ -133,7 +132,7 @@ def main():
             else:
                 xp, yp = 0, 0
 
-        model.predict(canvas)
+        # model.predict(canvas)
         frame = drawOnFeed(frame, canvas)
         frame[0:100, 0:1280] = currNavBar
         cv2.imshow('Live', frame)

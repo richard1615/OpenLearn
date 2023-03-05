@@ -9,13 +9,10 @@ from imutils.contours import sort_contours
 
 class HandwritingModel:
     def __init__(self):
-        model_path = '../model_v2'
+        model_path = 'model_v2'
         self.model = load_model(model_path)
 
     def predict(self, image):
-        image = 255 - image
-        image_path = 'img.png'
-        image = cv2.imread(image_path)
         assert image is not None, "Could not read the image."
 
         # Commented out IPython magic to ensure Python compatibility.
